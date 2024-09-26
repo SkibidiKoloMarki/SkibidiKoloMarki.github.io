@@ -63,3 +63,34 @@ p{color: red;}
 ```python
 print("szöveg")
 ```
+
+pipe karakter AltGr + W
+
+|Fejléc | Fejléc|
+|-| -|
+|Adatok | Adatok|
+|asda| sada|
+|bhjibhi|hgeg|
+|...|...|
+|stb.| stb .|
+
+## szoveg formázások (inline)
+
+*dőlt*
+
+**felkover**
+
+_dolt_
+__felkover__
+
+## linkek
+
+http://umszki.hu/
+
+[link szöveg](www.pornhub.com)
+
+### kep beszurasa
+
+![helyi kep](cheatsheet.jpg)
+
+![tavoli kep](https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Skibidi_toilet_screenshot.webp/220px-Skibidi_toilet_screenshot.webp.png)

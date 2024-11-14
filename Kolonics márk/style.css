@@ -1,0 +1,12 @@
+#logo{
+    width:65px ;
+    height:65px ;
+}
+<---.container{
+   background-color: rgb(231, 231, 202); 
+}
+body{
+    background-image:url("képek/background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

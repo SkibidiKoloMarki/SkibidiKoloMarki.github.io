@@ -15,7 +15,7 @@
   <div class="container">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Kyokushin Karate</a>
         <img src="képek/logo2.jpg" alt="Bootstrap" id="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,13 +24,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
+              <a class="nav-link active" href="#kezdetek">Mi is a Kyokushin Karate?</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" href="#hazai_szervezetek">Hazai Szervezetek</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
+              <a class="nav-link active" href="#kapcsolat">Kapcsolat</a>
             </li>
           </ul>
         </div>
@@ -45,18 +45,14 @@
           aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-          aria-label="Slide 4"></button>
+        
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="képek/kep1.png" class="d-block w-100" alt="kep1" title="EB 3.helyezés">
+          <img src="képek/kep1.png" class="d-block w-100" alt="kep1" title="Európa Bajnokság 3.helyezés">
         </div>
         <div class="carousel-item">
-          <img src="képek/kep2 (2).png" class="d-block w-100" alt="kep2" title="Magyar bajnokság 4.helyezés">
-        </div>
-        <div class="carousel-item">
-          <img src="képek/kep3.jpg" class="d-block w-100" alt="kep3" title="Kata mozdulatok">
+          <img src="képek/kep2 (2).png" class="d-block w-100" alt="kep2" title="Magyar Bajnokság 4.helyezés">
         </div>
         <div class="carousel-item">
           <img src="képek/kep2.png" class="d-block w-100" alt="kep4" title="Yoko geri">
@@ -74,7 +70,7 @@
       </button>
     </div>
     <div>
-      <h1>A Magyar Kyokushin Karate – Erő, Kitartás és Harcművészet</h1>
+      <h1 id="kezdetek">A Magyar Kyokushin Karate – Erő, Kitartás és Harcművészet</h1>
       <p>A <strong>Kyokushin karate</strong> a világ egyik legkeményebb és legelkötelezettebb harcművészeti stílusa,
         amely az
         önfegyelem, a kitartás és a testi-lelki erő fejlesztésére helyezi a hangsúlyt. A stílust <strong>Masutatsu
@@ -119,16 +115,18 @@
         a célja vagy a személyes fejlődés.
       </p>
       <ul>
-        <li><strong>Kezdő edzések</strong>: Különböző korosztályok számára is elérhetők, ahol a gyerekek és felnőttek is megtanulhatják az alapokat.</li>
+        <li><strong>Kezdő edzések</strong>: Különböző korosztályok számára is elérhetők, ahol a gyerekek és felnőttek is
+          megtanulhatják az alapokat.</li>
         <li><strong>Haladó edzések</strong>: Fejlettebb szintű technikák, küzdelmek és versenyfelkészítés.</li>
-        <li><strong>Versenyek és események</strong>: Rendszeres helyi és nemzetközi versenyek, ahol a legjobb karatékák mérhetik össze tudásukat.</li>
+        <li><strong>Versenyek és események</strong>: Rendszeres helyi és nemzetközi versenyek, ahol a legjobb karatékák
+          mérhetik össze tudásukat.</li>
       </ul>
     </div>
     <h2 id="hazai_szervezetek">Hazai szervezetek</h2>
     <div class="row">
       <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src="képek/koszoildiko.jpg" class="card-img-top" alt="Shihan Kószó Ildikó">
+          <img src="képek/koszoildiko.jpg" class="card-img-top" alt="Shihan Kószó Ildikó" title="Shihan Kószó Ildikó">
           <div class="card-body">
             <h5 class="card-title">Shihan Kószó Ildikó (5. dan)</h5>
           </div>
@@ -136,7 +134,7 @@
       </div>
       <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src="képek/halaszvivien.jpg" class="card-img-top" alt="Shihan Kószó Ildikó">
+          <img src="képek/halaszvivien.jpg" class="card-img-top" alt="Sensei Halász Viven" title="Sensei Halász Viven">
           <div class="card-body">
             <h5 class="card-title">Sensei Halász Viven (4. dan)</h5>
           </div>
@@ -144,17 +142,30 @@
       </div>
       <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src="képek/illestibor.jpg" class="card-img-top" alt="Shihan Kószó Ildikó">
+          <img src="képek/illestibor.jpg" class="card-img-top" alt="Sensei Illés Tibor" title="Sensei Illés Tibor">
           <div class="card-body">
             <h5 class="card-title">Sensei Illés Tibor (4. dan)</h5>
           </div>
         </div>
       </div>
+
+    </div>
+    <hr class="border border-dark border-3 opacity-100">
+    <div id="kapcsolat_2">
+      <h5 id="kapcsolat">Kapcsolat</h5>
+        <p>
+        Magyar Kyokushin Karate Szövetség
+        Email: info@kyokushin.hu
+        Telefon: +36 30 123 4567
+
+      <p>Fedezd fel a <strong>Kyokushin karatét</strong> Magyarországon – erő, tisztelet, fejlődés!</p>
+      </p>
     </div>
 
 
 
   </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

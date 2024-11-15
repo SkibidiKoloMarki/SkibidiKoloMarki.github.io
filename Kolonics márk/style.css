@@ -4,7 +4,8 @@
 }
 body{
     background-image:url("képek/background.jpg");
-    background-size: cover;
+    background-repeat:round;
+    
 }
 hr{
     color: black;

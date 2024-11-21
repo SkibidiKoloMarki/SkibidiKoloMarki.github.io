@@ -1,0 +1,26 @@
+.kiemeles{
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+.terkep{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;           
+    margin: 0;
+    width: 80%;               
+    max-width: 800px;         
+    height: 450px;    
+}
+body{
+    text-align: justify;
+  }
+
+
+
+
+
+.map-container {
+            width: 600px;
+    height: 450px;      
+}

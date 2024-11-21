@@ -3,24 +3,17 @@
     padding: 20px;
 }
 .terkep{
-    display: flex;
-    justify-content: center;  
-    align-items: center;      
-    height: 100vh;           
-    margin: 0;
-    width: 80%;               
-    max-width: 800px;         
+    display: block;
+    margin: auto;               
+    max-width: 800px;
+    width: 80%;
     height: 450px;    
+
 }
 body{
     text-align: justify;
   }
-
-
-
-
-
 .map-container {
-            width: 600px;
+    width: 600px;
     height: 450px;      
 }

@@ -1,10 +1,8 @@
-/* Finomított logó méret és elhelyezés */
 #logo {
     max-width: 80px;
     height: auto;
   }
   
-  /* Testreszabott háttérkép beállítása */
   body {
     background-image: url("képek/background.jpg");
     background-repeat: no-repeat;
@@ -12,13 +10,11 @@
     background-position: center;
   }
   
-  /* Tisztább elválasztó vonalak */
   hr {
     border-color: #000;
     border-width: 2px;
   }
   
-  /* Szöveg stílusok a kapcsolat szekcióhoz */
   #kapcsolat_2 {
     margin: auto;
     width: 60%;
@@ -26,7 +22,7 @@
     text-align: center;
     color: #333;
     font-size: 1.2rem;
-    background-color: rgba(255, 255, 255, 0.7); /* Háttér színt adhatunk */
+    background-color: rgba(255, 255, 255, 0.6); /* Háttér színt adhatunk */
     border-radius: 10px;
   }
   
@@ -41,8 +37,31 @@
     font-size: 1rem;
     color: #333;
   }
+  .kiemeles{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+.terkep{
+    display: block;
+    margin: auto;               
+    max-width: 800px;
+    width: 80%;
+    height: 450px;    
+
+}
+body{
+    text-align: justify;
+  }
+.map-container {
+    width: 600px;
+    height: 450px;      
+}
   
-  /* Mobil optimalizálás */
   @media (max-width: 768px) {
     #logo {
       max-width: 50px;

@@ -1,26 +1,60 @@
-#logo{
-    width:65px ;
-    height:65px ;
-}
-body{
-    background-image:url("képek/background.jpg");
-    background-repeat:round;
-    
-}
-hr{
-    color: black;
-}
-#kapcsolat_2{
+/* Finomított logó méret és elhelyezés */
+#logo {
+    max-width: 80px;
+    height: auto;
+  }
+  
+  /* Testreszabott háttérkép beállítása */
+  body {
+    background-image: url("képek/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Tisztább elválasztó vonalak */
+  hr {
+    border-color: #000;
+    border-width: 2px;
+  }
+  
+  /* Szöveg stílusok a kapcsolat szekcióhoz */
+  #kapcsolat_2 {
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    width: 60%;
+    padding: 20px;
     text-align: center;
-    color: black;
-    font-size: 20px;
-}
-#kapcsolat{
+    color: #333;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.7); /* Háttér színt adhatunk */
+    border-radius: 10px;
+  }
+  
+  #kapcsolat {
+    font-weight: bold;
     text-decoration: underline;
-}
-html{
-    color: black;
-}
+    color: #007bff;
+  }
+  
+  html {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Mobil optimalizálás */
+  @media (max-width: 768px) {
+    #logo {
+      max-width: 50px;
+    }
+  
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    #kapcsolat_2 {
+      width: 80%;
+      font-size: 1rem;
+    }
+  }
+  

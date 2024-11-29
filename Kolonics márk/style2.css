@@ -1,6 +1,11 @@
 .kiemeles{
-    background-color: rgba(255, 255, 255, 0.3);
+    margin: auto;
     padding: 20px;
+    text-align: center;
+    color: #333;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.5); /* Háttér színt adhatunk */
+    border-radius: 10px;
 }
 .terkep{
     display: block;

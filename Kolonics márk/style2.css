@@ -46,7 +46,7 @@ hr {
 }
 
 ul.kiemeles {
-    list-style-type: disc;
+    list-style-type: none;
     padding-left: 20px;
     font-size: 1.1rem;
 }
